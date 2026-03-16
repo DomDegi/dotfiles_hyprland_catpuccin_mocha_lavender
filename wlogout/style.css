@@ -1,0 +1,38 @@
+window {
+    background-color: rgba(30, 30, 46, 0.9); /* Mocha Base */
+}
+
+button {
+    background-color: #313244; /* Surface 0 */
+    color: #cdd6f4; /* Mocha Text */
+    
+    border: 2px solid #b4befe; /* Lavender */
+    border-radius: 20px;
+    
+    /* A smaller margin makes the buttons BIGGER and CLOSER together */
+    margin: 20px; 
+    
+    /* Make the text larger so it fills the big buttons beautifully */
+    font-size: 20px;
+    font-weight: bold;
+    
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #b4befe; /* Lavender */
+    color: #1e1e2e; /* Dark text on hover to pop against the lavender */
+    border-radius: 40px;
+}
+
+/* SVGs are commented out below so they won't load! 
+  You can safely delete this whole block if you prefer.
+*/
+
+/*
+#lock { background-image: url("/home/domdegi/.config/wlogout/icons/lock.svg"); }
+#logout { background-image: url("/home/domdegi/.config/wlogout/icons/logout.svg"); }
+#suspend { background-image: url("/home/domdegi/.config/wlogout/icons/suspend.svg"); }
+#reboot { background-image: url("/home/domdegi/.config/wlogout/icons/reboot.svg"); }
+#shutdown { background-image: url("/home/domdegi/.config/wlogout/icons/shutdown.svg"); }
+*/
