@@ -3,7 +3,9 @@
   "margin-left": 10,
   "margin-right": 10,
   "modules-left": [
-    "hyprland/window"
+    "hyprland/window",
+    "custom/separator",
+    "custom/media"
   ],
   "modules-center": [
     "hyprland/workspaces"
@@ -36,6 +38,24 @@
       "HDMI-A-1": [1, 2, 3, 4, 5],
       "eDP-2": [6, 7, 8, 9, 10]
     }
+  },
+  "custom/media": {
+    "format": "{icon} {text}", // Changed from {} to {text}
+    "return-type": "json",
+    "max-length": 40,
+    "format-icons": {
+        "spotify": "",
+        "default": "🎜"
+    },
+    "escape": true,
+    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" 
+    "on-click": "playerctl play-pause", // Left-click to play/pause,
+    "on-click-right": "playerctl next", // Right-click to skip to next track
+    "on-click-middle": "playerctl previous" // Middle-click (scroll wheel) to go back
+  },
+  "custom/separator": {
+    "format": "|",
+    "tooltip": false
   },
   "tray": {
     "icon-size": 18,

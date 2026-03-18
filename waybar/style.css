@@ -45,6 +45,22 @@ button:hover {
   background-color: #eb4d4b;
 }
 
+#custom-media, #custom-playerctl {
+    color: @lavender;
+    padding: 0 10px;
+}
+
+/* Specific styling for when music is paused */
+#custom-media.paused {
+    color: @overlay0;
+}
+
+#custom-separator {
+    color: @overlay0; 
+    padding: 0 5px;
+    font-size: 16px; /* Puoi aumentarlo se la sbarra ti sembra troppo corta */
+}
+
 #mode {
   background-color: #64727d;
   box-shadow: inset 0 -3px #ffffff;
