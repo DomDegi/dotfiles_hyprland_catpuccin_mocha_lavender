@@ -1,0 +1,12 @@
+# The path to your shell (check 'which fish')
+# Use /usr/bin/fish on most Arch systems
+command = /usr/bin/fish
+
+# Theme must be in quotes if it has spaces
+theme = "Catppuccin Mocha"
+
+# Font settings
+font-family = "JetBrainsMono NF"
+font-size = 12
+
+# Optional: Ensure tmux starts inside fish (handled in config.fish usually)
