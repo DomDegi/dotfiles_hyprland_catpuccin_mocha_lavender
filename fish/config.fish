@@ -10,6 +10,10 @@ fish_add_path /home/domdegi/.spicetify
 
 export PATH="$HOME/.local/bin:$PATH"
 
+zoxide init fish | source
+
+set -gx EDITOR nvim
+
 # Battery Conservation Shortcuts
 abbr -a bat_limit "echo 1 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode > /dev/null"
 abbr -a bat_full  "echo 0 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode > /dev/null"
