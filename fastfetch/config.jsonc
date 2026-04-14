@@ -4,7 +4,8 @@
     "type": "builtin",
     "source": "arch",
     "color": {
-      "1": "magenta"
+      "1": "38;2;180;190;254", // Catppuccin Mocha Lavender
+      "2": "38;2;203;166;247"  // Catppuccin Mocha Mauve (for the secondary logo color)
     },
     "padding": {
       "top": 1,
@@ -14,7 +15,7 @@
   },
   "display": {
     "separator": " • ",
-    "color": "blue"
+    "color": "38;2;180;190;254" // Made the separator Lavender too!
   },
   "modules": [
     "break",     // Prima riga vuota per abbassare il testo
@@ -22,7 +23,7 @@
     {
       "type": "os",
       "key": "",
-      "keyColor": "blue"
+      "keyColor": "38;2;180;190;254" // You can use RGB for keys too!
     },
     {
       "type": "uptime",

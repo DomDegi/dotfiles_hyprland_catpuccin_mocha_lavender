@@ -48,7 +48,7 @@
         "default": "🎜"
     },
     "escape": true,
-    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" 
+    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null", 
     "on-click": "playerctl play-pause", // Left-click to play/pause,
     "on-click-right": "playerctl next", // Right-click to skip to next track
     "on-click-middle": "playerctl previous" // Middle-click (scroll wheel) to go back
